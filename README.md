@@ -1,5 +1,4 @@
-<h1 align="center">👀</h1>
-<h2 align="center"><a href="http://antoine.cool">antoine.cool</a><h2>
+<h2 align="center">👀 <a href="http://antoine.cool">antoine.cool</a> 👀<h2>
 <p align="center">New website, new projects, new design. Still cool.<p>
 
 ### Installation
