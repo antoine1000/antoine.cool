@@ -1,0 +1,11 @@
+# Template compiler infos
+layout: index
+
+# Metadatas
+title: bro-start
+description: your starterkit is ready!
+
+# Content
+message: |
+  bro-start is working!
+  have fun.

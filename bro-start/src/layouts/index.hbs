@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{title}}</title>
+  <meta name="description" content="{{description}}" />
+  {{#if compiler.isProduction}}
+  <link rel="stylesheet" href="bundle-{{compiler.hash}}.css">
+  {{/if}}
+</head>
+<body>
+  <main>
+    <img src="brostart.gif" alt="brostart logo">
+    <p>{{nl2br message}}</p>
+  </main>
+  <script src="bundle-{{compiler.hash}}.js"></script>
+</body>
+</html>

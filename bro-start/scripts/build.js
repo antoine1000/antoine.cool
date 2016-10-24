@@ -1,43 +1,38 @@
-const argv         = require('minimist')(process.argv.slice(2));
-const path         = require('path');
-const xtend        = require('xtend');
-const sh           = require('./utils/Shell');
-const createDoodle = require('./utils/createDoodle');
-const createBuild  = require('./utils/createBuild');
+const startTime = new Date()
+const sh = require('kool-shell')
 
-function build(options) {
-  const build = createBuild(options);
-  build.run()
-    .catch((e) => sh.error(e));
-}
+const webpack = require('webpack')
+const paths = require('../config/paths.config.js')
+const webpackConfig = require('../config/webpack.config.prod.js')
+const ProgressBarPlugin = require('progress-bar-webpack-plugin')
+const compiler = webpack(webpackConfig)
 
-if (!argv._ || !argv._[0]) {
+const store = require('./utils/store')
+const buildUtils = require('./utils/build')
 
-  const options = {
-    isDoodle: false,
-    isProduction: true
-  };
-  build(options);
+compiler.apply(new ProgressBarPlugin({
+  format: sh.colors.gray('build [:bar] ' + ':percent'),
+  clear: true,
+  summary: false
+}))
 
-} else {
-
-  let doodle;
-  try { doodle = createDoodle(argv._[0], path.join(__dirname, '..', 'doodles')); }
-  catch(e) { sh.error(e + '\n').exit(); }
-  doodle.exists()
-    .catch((e) => {
-      sh.error('Doodle ' + doodle.name + ' doesn\'t exist.')
-        .info('You can use '
-          + sh.c.yellow.italic('npm run doodle -- "' + doodle.name + '"')
-          + ' to create it\n')
-        .exit()
-    })
-    .then(() => {
-      const options = {
-        isDoodle: true,
-        isProduction: true,
-        paths: { cwd: doodle.cwd }
-      };
-      build(options);
-    });
-}
+sh.step(1, 3, 'Cleaning up the dist folder...')
+buildUtils.cleanupDist(paths.dist)
+  .catch((err) => {
+    sh.error('💀  Error trying to clean the dist folder').error(err).exit(0)
+  })
+  .then(() => { sh.step(2, 3, 'Running the webpack compiler...') })
+  .then(() => buildUtils.webpackCompile(compiler))
+  .catch((err) => {
+    sh.error('💀  Error during the webpack compilation').error(err).exit(0)
+  })
+  .then((stats) => { store.hash = stats.hash })
+  .then(() => { sh.step(3, 3, 'Rendering the static content...') })
+  .then(() => buildUtils.staticRender(compiler))
+  .catch((err) => {
+    sh.error('💀  Error during the rendering').error(err).exit(0)
+  })
+  .then(() => {
+    const elapsedTime = ((new Date() - startTime) / 1000).toFixed(3)
+    sh.success(`\n👌  Build completed in ${elapsedTime}s !`).exit(0)
+  })

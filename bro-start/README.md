@@ -1,44 +1,61 @@
-bro-start
-=====
+<br>
+<p align="center">
+  <img src="static/brostart.gif" width="125" alt="brostart">
+</p>
+<h1 align="center">bro-start</h1>
+<h3 align="center">Blazing fast webpack setup for static websites</h3>
 
-Tiny starter kit for making cool websites
+<div align="center">
+  <!-- License -->
+  <a href="https://raw.githubusercontent.com/brocessing/bro-start/master/LICENSE">
+    <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" alt="License" />
+  </a>
+</div>
 
-### Features
-- [Webpack](https://github.com/webpack/webpack) + [Webpack-dev-server](https://github.com/webpack/webpack-dev-server)
-- [ES6](https://github.com/lukehoban/es6features#readme) transpilation with [Babel](https://github.com/babel/babel)
-- [Stylus](https://github.com/stylus/stylus/) + [nib](https://github.com/tj/nib) + [autoprefixer](https://github.com/jescalan/autoprefixer-stylus)
-- [mustache](https://mustache.github.io/) with [mu](https://github.com/raycmorgan/Mu)
-- [BrowserSync](https://github.com/BrowserSync/browser-sync) + [localtunnel](https://github.com/localtunnel/localtunnel)
-- [imagemin-cli](https://github.com/imagemin/imagemin-cli) + [pngquant](https://github.com/imagemin/imagemin-pngquant)
-- 'Doodle mode' to quickly create prototypes or codepen-like stuff
+<br><br>
+<br><br>
+<br><br>
 
-### Installation
-```
+### :unamused:  Why another frontend setup?
+
+Webpack is a nice, easily customizable module bundler.<br>
+It pairs nice with modern javascript frameworks like Vue or React but it's a hassle when it comes to compile some good old html files. :older_man:
+_Bro-start_ combines for you the coolest webpack features with a simple static site generator with yaml and handlebars.
+
+<br>
+<h1></h1>
+<br>
+
+### :santa:  I want my bro-start setup!
+
+```sh
 svn export https://github.com/brocessing/bro-start/trunk bro-start
 cd bro-start
-npm install
+yarn install
+# Yarn is FAST ! But npm install will do the job as well.
 ```
-You can also [download stable releases](https://github.com/brocessing/bro-start/releases)
 
+You can also [download the latest release](https://github.com/brocessing/bro-start/releases/latest)
 
-### Usage
+<br>
+<h1></h1>
+<br>
 
-###### Main scripts
+### :handbag:  Features
 
-- `npm run dev` Run a BrowserSync server with Hot Module Replacement
-- `npm run build` Production ready build
-- `npm run imagemin` Compress images in src/static/images/
+- Static rendering from yaml files and handlebars templates
+- Easy routing : by default hierarchy of your yaml files are the routes of your sites
+- PostCSS + Stylus + Autoprefixer
+- ES6 transpilation with babel + ES2015 presets
+- Webpack dev server and hot reloading
+- BrowserSync and its features (localtunnel, xip.io, ...)
+- Hash from webpack is available as data in your layouts
 
-###### Doodle-specific scripts
+<br>
+<h1></h1>
+<br>
 
-- `npm run doodle -- doodleName` Create the doodle _doodleName_ in the doodles folder.
-- `npm run dev -- doodleName` Run a BrowserSync server for _doodleName_
-- `npm run build -- doodleName` Production ready build of _doodleName_
-
-
-
-### To do
-- Add html-minifier to the production build script
-
-### License
+### :hammer:  License
 MIT.
+
+<br><br>
