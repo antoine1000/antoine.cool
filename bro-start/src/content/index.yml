@@ -1,9 +1,9 @@
 # Template compiler infos
-layout: index
+layout: index.hbs
 
 # Metadatas
-title: bro-start
-description: your starterkit is ready!
+title: Antoine Puel
+description: Mon portfolio en ligne 📒
 
 # Content
 message: |
