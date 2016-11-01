@@ -2,10 +2,10 @@
 layout: index.hbs
 
 # Metadatas
-title: Antoine Puel
-description: Mon portfolio en ligne 📒
+title: bro-start
+description: your starterkit is ready!
 
 # Content
 message: |
-  bro-start is working!
+  bro-start is walking!
   have fun.

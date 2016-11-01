@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <base href="{{compiler.publicPath}}">
   <title>{{title}}</title>
   <meta name="description" content="{{description}}" />
   {{#if compiler.isProduction}}
@@ -9,7 +10,7 @@
 </head>
 <body>
   <main>
-    <img src="brostart.gif" alt="brostart logo">
+    <img src="./images/brostart.gif" alt="brostart logo">
     <p>{{nl2br message}}</p>
   </main>
   <script src="bundle-{{compiler.hash}}.js"></script>
