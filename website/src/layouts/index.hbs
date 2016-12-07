@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="{{compiler.publicPath}}">
+  <title>{{title}}</title>
+  <meta name="description" content="{{description}}" />
+  {{#if compiler.isProduction}}
+  <link rel="stylesheet" href="bundle-{{compiler.hash}}.css">
+  {{/if}}
+</head>
+<body>
+  <main>
+      <header>
+          <a href='#'>Antoine Puel</a>
+          <a href='#'>Projets</a>
+          <a href='#'>À propos</a>
+      </header>
+      <section class="main-project">
+         <ul>
+            <li><a href='#'>skeleton</a></li>
+            <li><a href='#'>whistleblower</a></li>
+            <li><a href='#'>eyebro</a></li>
+            <li><a href='#'>j'ai du bon data</a></li>
+            <li><a href='#'>design fiction</a></li>
+            <li><a href='#'>switch</a></li>
+            <li><a href='#'>laurent de la house</a></li>
+         </ul>
+      </section>
+      <footer>
+          <a href="#">Made with Bro-Start 🚗💨</a>
+      </footer>
+  </main>
+  <script src="bundle-{{compiler.hash}}.js"></script>
+</body>
+</html>

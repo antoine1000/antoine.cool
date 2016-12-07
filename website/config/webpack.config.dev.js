@@ -5,7 +5,7 @@ const webpack = require('webpack')
 
 const devConfig = {
   entry: [
-    'webpack-hot-middleware/client?reload=true'
+    'webpack-hot-middleware/client'
   ],
   output: {
     path: paths.src

@@ -1,0 +1,11 @@
+# Template compiler infos
+layout: index.hbs
+
+# Metadatas
+title: Antoine Puel
+description: Portfolio d'Antoine Puel, designer interactif
+
+# Content
+message: Bienvenue sur mon portfolio en ligne.
+
+projet: Nom du projet 

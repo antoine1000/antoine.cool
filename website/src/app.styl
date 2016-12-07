@@ -1,0 +1,80 @@
+@font-face {
+    font-family: HK-Grotesk;
+    src: url(fonts/hkgrotesk-regular-webfont.woff);
+}
+
+@font-face {
+    font-family: Terminal-Grotesque;
+    src: url(fonts/Terminal-Grotesque/terminal-grotesque-webfont.woff) format("woff")
+    src: url(fonts/Terminal-Grotesque/terminal-grotesque-webfont.woff) format("woff2")
+    src: url(fonts/Terminal-Grotesque/terminal-grotesque-webfont.ttf) format("ttf")
+    src: url(fonts/Terminal-Grotesque/terminal-grotesque-webfont.otf) format("otf")
+    src: url(fonts/Terminal-Grotesque/terminal-grotesque-webfont.svg) format("svg")
+}
+
+@font-face {
+    font-family: Terminal-Grotesque-Open;
+    src: url(fonts/Terminal-Grotesque-Open/terminal-grotesque_open-webfont.woff) format("woff")
+    src: url(fonts/Terminal-Grotesque-Open/terminal-grotesque_open-webfont.woff2) format("woff2")
+    src: url(fonts/Terminal-Grotesque-Open/terminal-grotesque_open-webfont.ttf) format("ttf")
+    src: url(fonts/Terminal-Grotesque-Open/terminal-grotesque_open-webfont.otf) format("otf")
+    src: url(fonts/Terminal-Grotesque-Open/terminal-grotesque_open-webfont.svg) format("svg")
+}
+
+// body
+//   position absolute
+
+
+main
+  display flex
+  flex-direction column
+  justify-content space-between
+  height 100vh
+  // margin 0
+  // padding 50px 10vw 50px 10vw
+  
+header 
+  display flex
+  flex-direction row
+  justify-content space-around
+  align-items center
+  height 10vh
+  
+footer 
+  display flex
+  flex-direction row
+  justify-content flex-end
+  align-items center
+  height 10vh
+ 
+  
+.main-project {
+  display flex
+  flex-direction column
+  justify-content flex-end
+  align-items flex-end
+  width 90vw
+}
+
+a, p
+  font-family HK-Grotesk, Helvetica, sans-serif
+  color #333
+  line-height 1.40
+  
+ul
+  font-family Terminal-Grotesque, Helvetica, sans-serif
+  font-weight 100
+  font-size 3em
+  color #000
+  line-height 1.40
+  list-style : none
+  
+
+a:hover {
+  color #6AFFBA;
+    }
+    
+a {
+    color: #000;
+    text-decoration: none;
+}
