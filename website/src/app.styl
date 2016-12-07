@@ -5,20 +5,12 @@
 
 @font-face {
     font-family: Terminal-Grotesque;
-    src: url(fonts/Terminal-Grotesque/terminal-grotesque-webfont.woff) format("woff")
-    src: url(fonts/Terminal-Grotesque/terminal-grotesque-webfont.woff) format("woff2")
-    src: url(fonts/Terminal-Grotesque/terminal-grotesque-webfont.ttf) format("ttf")
-    src: url(fonts/Terminal-Grotesque/terminal-grotesque-webfont.otf) format("otf")
-    src: url(fonts/Terminal-Grotesque/terminal-grotesque-webfont.svg) format("svg")
-}
+    src: url(fonts/Terminal-Grotesque/terminal-grotesque-webfont.woff)
+ }
 
 @font-face {
     font-family: Terminal-Grotesque-Open;
-    src: url(fonts/Terminal-Grotesque-Open/terminal-grotesque_open-webfont.woff) format("woff")
-    src: url(fonts/Terminal-Grotesque-Open/terminal-grotesque_open-webfont.woff2) format("woff2")
-    src: url(fonts/Terminal-Grotesque-Open/terminal-grotesque_open-webfont.ttf) format("ttf")
-    src: url(fonts/Terminal-Grotesque-Open/terminal-grotesque_open-webfont.otf) format("otf")
-    src: url(fonts/Terminal-Grotesque-Open/terminal-grotesque_open-webfont.svg) format("svg")
+    src: url(fonts/Terminal-Grotesque-Open/terminal-grotesque_open.woff)
 }
 
 // body
@@ -39,6 +31,7 @@ header
   justify-content space-around
   align-items center
   height 10vh
+  margin 0px 50px 100px 50px
   
 footer 
   display flex
@@ -46,14 +39,15 @@ footer
   justify-content flex-end
   align-items center
   height 10vh
+  margin 50px 50px 0px 50px
  
   
 .main-project {
   display flex
   flex-direction column
-  justify-content flex-end
+  justify-content center
   align-items flex-end
-  width 90vw
+  padding-right 10vw
 }
 
 a, p
@@ -62,12 +56,15 @@ a, p
   line-height 1.40
   
 ul
-  font-family Terminal-Grotesque, Helvetica, sans-serif
+  font-family Terminal-Grotesque-Open, Helvetica, sans-serif
   font-weight 100
   font-size 3em
   color #000
-  line-height 1.40
-  list-style : none
+  line-height 1
+  list-style none
+  text-align right
+ul a 
+  font-family Terminal-Grotesque, Helvetica, sans-serif
   
 
 a:hover {
