@@ -6,7 +6,7 @@
 <body>
   <main>
       {{> header.hbs}}
-      <section class="main-project">
+      <section class="projects">
          <ul>
             <li>2016 - <a href='projets/eyebro.html'>eyebro</a></li>
             <li>2016 - <a href='#'>skeleton+kinect</a></li>
@@ -21,6 +21,7 @@
       </section>
       {{> footer.hbs}}
   </main>
+  <script src="stickyfill.min.js"></script>
   <script src="bundle-{{compiler.hash}}.js"></script>
 </body>
 </html>

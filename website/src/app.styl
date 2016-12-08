@@ -43,7 +43,7 @@ main
   display flex
   flex-direction column
   justify-content space-between
-  min-height 100vh
+  min-height 98vh
   
 header 
   display flex
@@ -77,14 +77,14 @@ footer
   justify-content flex-end
   align-items center
   height 5vh
-  margin 2.5vh 4vw 0px 2.5vw
+  margin 2.5vh 4vw 1vh 2.5vw
 
 footer a
   font-family HK-Grotesk-Italic
   font-size 0.8em
  
   
-.main-project {
+.projects {
   display flex
   flex-direction column
   justify-content flex-start
@@ -109,7 +109,7 @@ ul
   line-height 1
   list-style none
   text-align right
-ul a 
+h2, ul a 
   font-family Terminal-Grotesque, Helvetica, sans-serif
   
 
@@ -127,17 +127,67 @@ a {
     text-decoration: none;
 }
 
+.sticky
+  position -webkit-sticky
+  position sticky
+  top 0
+  
+.sticky:before,
+.sticky:after {
+    content: '';
+    display: table;
+}
+
+/* ----- Project page ----- */
+
+.main-project {
+  display flex
+  flex-direction column
+  justify-content center
+  align-items center
+  flex 1
+  font-size 28px
+  min-width 50vw
+  padding 2.5vh 5vw 2.5vh 5vw
+  //overflow-y scroll
+}
+
+.title
+  display flex
+  justify-content flex-end
+  width 70vw
+
+.preview
+  display flex
+  width 70vw
+  height 50vh
+  background green
+  
+.description
+  display flex
+  flex-direction column
+  align-items flex-start
+  width 70vw
+  
+  
+.project-images
+  display flex
+  flex-direction column
+  justify-content center
+  align-items center
+  width 100vw
+
 
 /* ----- Media Queries - Responsive Design ----- */
 
 @media all and (max-width: 1400px) {
-    .main-project {
+    .projects {
       font-size 22px
     }
   }
   
 @media all and (max-width: 768px) {
-    .main-project {
+    .projects {
       font-size 14px
     }
 
@@ -150,15 +200,15 @@ a {
     }
     
     ul {
-      text-align center
+      text-align right
     }
   }
   
 @media all and (max-width: 520px) {
-    .main-project {
+    .projects {
       font-size 8px
       height 80vh
-      justify-content center
+      justify-content flex-start
     }
   footer {
     position: absolute
