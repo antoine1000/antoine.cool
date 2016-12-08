@@ -5,15 +5,7 @@
 </head>
 <body>
   <main>
-      <header>
-         <div id="left">
-            <a href='#'>Antoine Puel</a>
-         </div>
-          <div id="right">
-            <a href='#'>Projets&nbsp;</a>
-            <a href='#'>&nbsp;À propos</a>
-          </div>
-      </header>
+      {{> header.hbs}}
       <section class="main-project">
          <ul>
             <li>2016 - <a href='#'>eyebro</a></li>
@@ -27,9 +19,7 @@
             <li>2013 - <a href='#'>iso-iso</a></li>
          </ul>
       </section>
-      <footer>
-          <a href="https://github.com/brocessing/bro-start" target="_blank">Made with Bro-Start 🚗💨</a>
-      </footer>
+      {{> footer.hbs}}
   </main>
   <script src="bundle-{{compiler.hash}}.js"></script>
 </body>
