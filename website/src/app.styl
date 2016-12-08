@@ -135,17 +135,17 @@ a {
     text-decoration: none;
 }
 
-// .sticky
-//   position -webkit-sticky
-//   position sticky
-//   top 0
-//   overflow: scroll
+.sticky
+  position -webkit-sticky
+  position sticky
+  top 0
+  overflow: scroll
   
-// .sticky:before,
-// .sticky:after {
-//     content: '';
-//     display: table;
-// }
+.sticky:before,
+.sticky:after {
+    content: '';
+    display: table;
+}
 
 /* ----- Project page ----- */
 
@@ -167,8 +167,13 @@ a {
   justify-content space-between
   min-width 35vw
   max-width 100vw
-.title > h2
-    font-family Terminal-Grotesque, Helvetica, sans-serif
+.title h2
+    font-family Terminal-Grotesque-Open, Helvetica, sans-serif
+.title span {
+    font-family Terminal-Grotesque
+}
+
+    
 
 .nav
   display flex
