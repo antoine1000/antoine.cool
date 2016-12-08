@@ -1,11 +1,11 @@
 
-/* ---- Define colors---- */
+/* --------- Colors --------- */
 
 black = #000
 green = #6AFFBA
 
 
-/* ---- Import HK-Grotesk ---- */
+/* --------- Fonts --------- */
 
 @font-face {
     font-family: HK-Grotesk;
@@ -22,7 +22,6 @@ green = #6AFFBA
     src: url(fonts/HK-Grotesk-Bold/hkgrotesk-bold-webfont.woff);
 }
 
-/* ---- Import Terminal Grotesque ---- */
 
 @font-face {
     font-family: Terminal-Grotesque;
@@ -35,6 +34,7 @@ green = #6AFFBA
 }
 
 
+/* --------- Main --------- */
 
 main
   display flex
@@ -90,30 +90,6 @@ footer a
   //overflow-y scroll
 }
 
-@media all and (max-width: 1400px) {
-    .main-project {
-      font-size 22px
-    }
-  }
-  
-@media all and (max-width: 768px) {
-    .main-project {
-      font-size 12px
-    }
-    #left {
-      width: 55vw
-    }
-    
-    #right {
-      width: 45vw
-    }
-  }
-  
-@media all and (max-width: 520px) {
-    .main-project {
-      font-size 10px
-    }
-  }
 
 a, p
   font-family HK-Grotesk, Helvetica, sans-serif
@@ -145,3 +121,43 @@ a {
     color: #000;
     text-decoration: none;
 }
+
+
+/* ----- Media Queries - Responsive Design ----- */
+
+@media all and (max-width: 1400px) {
+    .main-project {
+      font-size 22px
+    }
+  }
+  
+@media all and (max-width: 768px) {
+    .main-project {
+      font-size 14px
+    }
+
+    #left {
+      width: 55vw
+    }
+    
+    #right {
+      width: 45vw
+    }
+    
+    ul {
+      text-align center
+    }
+  }
+  
+@media all and (max-width: 520px) {
+    .main-project {
+      font-size 8px
+      height 80vh
+      justify-content center
+    }
+  footer {
+    position: absolute
+    bottom: 0
+    right: 0
+  }
+  }

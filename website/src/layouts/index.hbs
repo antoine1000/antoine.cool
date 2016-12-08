@@ -1,12 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <base href="{{compiler.publicPath}}">
-  <title>{{title}}</title>
-  <meta name="description" content="{{description}}" />
-  {{#if compiler.isProduction}}
-  <link rel="stylesheet" href="bundle-{{compiler.hash}}.css">
-  {{/if}}
+    {{> head.hbs}}
 </head>
 <body>
   <main>
