@@ -185,15 +185,19 @@ a {
 
 .preview
   display flex
-  width 75vw
+  width 50vw
   height 60vh
   background green
   
 .description
   display flex
   flex-direction column
-  align-items flex-start
-  min-width 70vw
+  align-self flex-start
+  max-width 70vw
+  font-family HK-Grotesk
+.description h5
+  font-family HK-Grotesk-Bold
+  color green
   
   
 .project-images
@@ -202,6 +206,11 @@ a {
   justify-content center
   align-items center
   min-width 100vw
+.project-images img
+  height 40vh
+  width 50vw
+  margin 2.5vh 2.5vw
+  background green
 
 
 /* ----- Media Queries - Responsive Design ----- */
@@ -237,7 +246,6 @@ a {
       justify-content flex-start
     }
   footer {
-    position: absolute
     bottom: 0
     right: 0
   }

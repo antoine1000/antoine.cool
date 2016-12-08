@@ -2,11 +2,39 @@
 layout: projet.hbs
 
 # Metadatas
-title: Antoine Puel
+title: eyebro
 description: Portfolio d'Antoine Puel - Bruxelles
 
 # Content
-message: Bienvenue sur mon portfolio en ligne.
+
+projet: "eyebro"
+date: "2016"
+
+content: |
+  Eyebro est un runner game qui se joue avec les sourcils.
+  La balle avance et il faut lever les sourcils pour la faire sauter, et éviter les obstacles.
+  Le tracking du visage est la partie la plus importante, notamment en basse lumières.
+
+technologies: "Javascript, clmtrckr.js, webcam" 
+
+liens:
+  "sous la direction de":
+    - Vaïana Le Coustumer
+    - Bertrand Vieillard
+    - Vincent Rossin
+  "liens":
+    - <a href="https://github.com/arnaudjuracek/boulle-memoire">github/boulle-memoire</a>
+    - <a href="http://file.arnaudjuracek.fr/arnaudjuracek_boite-noire.pdf">arnaudjuracek_boite-noire.pdf</a>
+
+
+
+ 
+
+images:
+  - 00.png
+  - 01.png
+  - 02.png
+  - 07.png
 
 
 

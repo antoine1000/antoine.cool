@@ -8,7 +8,7 @@
       {{> header.hbs}}
       <section class="main-project">
       	<div class="title sticky">
-	      	<h2>2016 - <span>nom du projet</span></h2>
+	      	<h2>{{date}} - <span>{{projet}}</span></h2>
 	    	<div class="nav">
 	      	<a href='#'><&nbsp;&nbsp;</a><a href='#'>&nbsp;&nbsp;></a>
 	    	</div>
@@ -17,9 +17,12 @@
         	<img>
         </div>
         <section class="description">
-        	<p>{{message}}</p>
-        	<p>{{message}}</p>
-        	<p>{{message}}</p>
+        	<h5>Projet</h5>
+        	{{content}}
+        	<h5>Technologies</h5>
+        	{{technologies}}
+        	<h5>Liens et collaborateurs</h5>
+        	{{liens}}
         </section>
         <section class="project-images">
         	<img src="#" alt="eyebro-1">
@@ -29,8 +32,8 @@
       </section>
       {{> footer.hbs}}
   </main>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="stickyfill.js"></script>
+<!--   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+ -->  <script src="stickyfill.js"></script>
   <script src="stickyfill.min.js"></script>
   <script src="bundle-{{compiler.hash}}.js"></script>
 </body>
