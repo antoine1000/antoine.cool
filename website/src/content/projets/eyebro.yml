@@ -11,11 +11,13 @@ projet: "eyebro"
 date: "2016"
 
 content: |
-  Eyebro est un runner game qui se joue avec les sourcils.
-  La balle avance et il faut lever les sourcils pour la faire sauter, et éviter les obstacles.
+  <p>Eyebro est un runner game qui se joue avec les sourcils. La balle avance et il faut lever les sourcils pour la faire sauter, et éviter les obstacles.
   Le tracking du visage est la partie la plus importante, notamment en basse lumières.
+  </p>
+  <p>La balle avance et il faut lever les sourcils pour la faire sauter, et éviter les obstacles. Eyebro est un runner game qui se joue avec les sourcils.</p>
+  <p>Le tracking du visage est la partie la plus importante, notamment en basse lumières.</p>
 
-technologies: "Javascript, clmtrckr.js, webcam" 
+technologies: <p>Javascript, clmtrckr.js, webcam</p> 
 
 liens:
   "sous la direction de":
@@ -25,10 +27,6 @@ liens:
   "liens":
     - <a href="https://github.com/arnaudjuracek/boulle-memoire">github/boulle-memoire</a>
     - <a href="http://file.arnaudjuracek.fr/arnaudjuracek_boite-noire.pdf">arnaudjuracek_boite-noire.pdf</a>
-
-
-
- 
 
 images:
   - 00.png

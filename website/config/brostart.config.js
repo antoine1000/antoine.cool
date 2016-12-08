@@ -2,7 +2,7 @@ const broStartConfig = {
   devServer: {
     historyAPIFallback: true,
     port: 8080,
-    tunnel: false,
+    tunnel: true,
     xip: false,
     offline: false
   },

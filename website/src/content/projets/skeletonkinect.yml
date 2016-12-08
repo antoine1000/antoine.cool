@@ -1,0 +1,42 @@
+# Template compiler infos
+layout: projet.hbs
+
+# Metadatas
+title: skeleton+kinect
+description: Portfolio d'Antoine Puel - Bruxelles
+
+# Content
+
+projet: "skeleton+kinect"
+date: "2016"
+
+content: |
+  Skeleton+Kinect est une série d'expérimentations autour du tracking du squelette humain.
+  À l'aide de Wekinator, on peut même contrôler du son ou de l'image grâce à des techniques de machine-learning.
+  J'ai recrée la classe SimpleOpenNI dans le but d'améliorer les fonctionnalités.
+
+technologies: "Kinect, Processing, Machine Learning, Wekinator" 
+
+liens:
+  "sous la direction de":
+    - Vaïana Le Coustumer
+    - Bertrand Vieillard
+    - Vincent Rossin
+  "liens":
+    - <a href="https://github.com/arnaudjuracek/boulle-memoire">github/boulle-memoire</a>
+    - <a href="http://file.arnaudjuracek.fr/arnaudjuracek_boite-noire.pdf">arnaudjuracek_boite-noire.pdf</a>
+
+
+
+ 
+
+images:
+  - 00.png
+  - 01.png
+  - 02.png
+  - 07.png
+
+
+
+
+  
