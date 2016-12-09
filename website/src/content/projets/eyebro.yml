@@ -19,14 +19,12 @@ content: |
 
 technologies: <p>Javascript, clmtrckr.js, webcam</p> 
 
-liens:
-  "sous la direction de":
-    - Vaïana Le Coustumer
-    - Bertrand Vieillard
-    - Vincent Rossin
-  "liens":
-    - <a href="https://github.com/arnaudjuracek/boulle-memoire">github/boulle-memoire</a>
-    - <a href="http://file.arnaudjuracek.fr/arnaudjuracek_boite-noire.pdf">arnaudjuracek_boite-noire.pdf</a>
+liens: |
+  <ul>
+  <li>Réalisé avec <a href="http://arnaudjuracek.fr">Arnaud Juracek</a></li>
+  <li><a href="https://brocessing.github.io/eyebro/">Jouer à eyebro !</a></li>
+  <li><a href="https://github.com/brocessing/eyebro">Le Github du projet</a></li>
+  </ul>
 
 images:
   - 00.png
