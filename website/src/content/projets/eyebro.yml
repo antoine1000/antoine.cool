@@ -2,7 +2,7 @@
 layout: projet.hbs
 
 # Metadatas
-title: eyebro
+title: Antoine Puel - eyebro
 description: Portfolio d'Antoine Puel - Bruxelles
 
 # Content
@@ -26,11 +26,11 @@ liens: |
   <li><a href="https://github.com/brocessing/eyebro">Le Github du projet</a></li>
   </ul>
 
-images:
-  - 00.png
-  - 01.png
-  - 02.png
-  - 07.png
+preview: <img src="projets/eyebro/jump.gif" alt="eyebro preview">
+
+images: |
+  <img src="projets/eyebro/light.gif" alt="eyebro light">
+  <img src="projets/eyebro/toofast.gif" alt="eyebro toofast">
 
 
 
