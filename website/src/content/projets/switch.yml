@@ -2,46 +2,36 @@
 layout: projet.hbs
 
 # Metadatas
-title: Antoine Puel - one thing leading to another
-description: Vidéo générative de suggestions Youtube en suggestions Youtube
+title: Antoine Puel - switch
+description: Switch, le smartphone qui protège votre vie privée
 
 # Content
 
-projet: "one thing leading to another"
-date: "2016"
+projet: "switch"
+date: "2015"
 
 content: |
-  <p>One thing leading to another est un flux vidéo provenant de Youtube, déterminé par les suggestions soumises par le moteur de recherche de l’hébergeur vidéo. 
-  Chaque vidéo en renvoie vers une autre, choisie selon la liste des propositions que le célèbre site de Google sélectionne. 
-  Le projet est une exploration où l’image se transforme au fil du parcours et au gré des requêtes utilisateurs.</p>
-  
-  <p>Cette vidéo interactive, générée à la fois par du contenu en ligne et par les spectateurs qui déterminent la direction qu’elle prend, 
-  questionne l’algorithme de Youtube, qui tente discrètement de nous enfermer dans notre propre bulle, 
-  en nous renvoyant toujours vers des vidéos susceptibles de nous plaire : un cocon aseptisé préparé par Google.
+  <p>Qui a déjà lu les conditions d'utilisations d'un logiciel ou d'une application avant de l'installer ? Personne, ou presque...
+  Pourtant, elles sont très importantes en ce qui concernent notre vie privée et les informations qu'une entreprise peut récolter sur nous.</p>
+  <p>Pour la campagne de Switch, notre smartphone protecteur de la vie privée, 
+  nous avons piégé des passants grâce à des cookies avec des conditions d'utilisations "un peu spéciales".
   </p>
 
 
 technologies: |
   <ul>
-  <li>⟡ webpack + nodeJS</li>
-  <li>⟡ youtube API</li>
-  <li>⟡ javascript</li> 
+  <li>⟡ spot vidéo</li>
+  <li>⟡ affiches print & interactives</li>
+  <li>⟡ motion design</li> 
   </ul>
 
 liens: |
   <ul>
-  <li><a href="#">→ Voir le projet en ligne</a></li>
-  <li><a href="https://github.com/brocessing/bro-tube">Le Github du projet 📚</a></li>
-  <li>Réalisé avec <a href="http://hugo.works">Hugo Piquemal 💪</a></li>
+  <li>Réalisé avec Steren Courric, Arthur Gori et Tancrède Garreau</li>
   </ul>
 
-preview: <img src="projets/eyebro/jump.gif" alt="eyebro preview">
+preview: <iframe src="https://player.vimeo.com/video/195177739" width="1920" height="1080" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 images: |
   <img src="projets/eyebro/light.gif" alt="eyebro light">
   <img src="projets/eyebro/toofast.gif" alt="eyebro toofast">
-
-
-
-
-  

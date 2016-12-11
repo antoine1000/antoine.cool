@@ -1,0 +1,32 @@
+# Template compiler infos
+layout: projet.hbs
+
+# Metadatas
+title: Antoine Puel - Laurent De La House
+description: DJ Mixes
+
+# Content
+
+projet: "laurent de la house"
+date: "since 2014"
+
+content: |
+  <p>Je mix de la house à mes heures perdues.</p>
+
+technologies: |
+  <ul>
+  <li>⟡ traktor</li>
+  <li>⟡ +vinyles</li>
+  </ul>
+
+liens: |
+  <ul>
+  <li><a href="http://dusangneuf-osangsett.com">→ Mixcloud</a></li>
+  <li><a href="http://dusangneuf-osangsett.com">→ Soundcloud</a></li>
+  </ul>
+
+preview: <img src="projets/eyebro/jump.gif" alt="eyebro preview">
+
+images: |
+  <img src="projets/eyebro/light.gif" alt="eyebro light">
+  <img src="projets/eyebro/toofast.gif" alt="eyebro toofast">

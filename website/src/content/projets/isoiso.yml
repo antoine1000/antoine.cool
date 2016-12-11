@@ -6,9 +6,8 @@ title: Antoine Puel - iso☐iso
 description: Installation interactive autour du livre numérique
 
 # Content
-
 projet: "iso☐iso"
-date: "2016"
+date: "2013"
 
 content: |
   <p>iso_iso est une installation interactive présentée au labo de l’édition 10/18 à Paris, durant le workshop avec Jean-Michel Géridan à la Gaité Lyrique.</p>
@@ -29,12 +28,3 @@ liens: |
   </ul>
 
 preview: <iframe src="https://player.vimeo.com/video/60974948" width="1920" height="1080" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-images: |
-  <img src="projets/eyebro/light.gif" alt="eyebro light">
-  <img src="projets/eyebro/toofast.gif" alt="eyebro toofast">
-
-
-
-
-  

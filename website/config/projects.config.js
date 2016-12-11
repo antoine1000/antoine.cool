@@ -7,5 +7,6 @@ module.exports = [
   `whistleblower`,
   `j'ai du bon data`,
   `switch`,
-  `iso-iso`
+  `iso☐iso`,
+  `laurent de la house`
 ]
