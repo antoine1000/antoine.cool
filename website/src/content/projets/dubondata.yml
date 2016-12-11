@@ -1,0 +1,46 @@
+# Template compiler infos
+layout: projet.hbs
+
+# Metadatas
+title: Antoine Puel - j'ai du bon data
+description: Mémoire de diplôme autour des enjeux de la surveillance en ligne
+
+# Content
+
+projet: "j'ai du bon data"
+date: "2015"
+
+content: |
+ <p>
+ Ce mémoire, réalisé en DSAA DSC à l'école Estienne (FR), traite de la surveillance en ligne, 
+ du commerce des données personnelles et des enjeux du Big Data.
+ </p>
+ 
+ <p>
+ Organisé en trois parties, il aborde d'abord les nouvelles problématiques liées au Big Data et à la vie privée 
+ puis traite de la récolte des données personnelles par les États et les entreprises, ses causes, ses conséquences
+ enfin, il présente les alternatives existantes comme le logiciel libre, le "hacking" et l'économie dite du partage.
+ </p>
+
+
+technologies: |
+  <ul>
+  <li>⟡ écriture ✎</li> 
+  <li>⟡ indesign</li>
+  </ul>
+
+liens: |
+  <ul>
+  <li>Réalisé avec Steren Courric, Arthur Gori et Tancrède Garreau</li>
+  </ul>
+
+preview: <img src="projets/eyebro/jump.gif" alt="eyebro preview">
+
+images: |
+  <img src="projets/eyebro/light.gif" alt="eyebro light">
+  <img src="projets/eyebro/toofast.gif" alt="eyebro toofast">
+
+
+
+
+  

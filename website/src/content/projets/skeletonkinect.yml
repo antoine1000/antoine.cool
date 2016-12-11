@@ -11,11 +11,18 @@ projet: "skeleton+kinect"
 date: "2016"
 
 content: |
-  <p>Eyebro est un runner game qui se joue avec les sourcils. La balle avance et il faut lever les sourcils pour la faire sauter, et éviter les obstacles.
-  Le tracking du visage est la partie la plus importante, notamment en basse lumières.
+  <p>
+  skeleton+kinect est une série d'experimentations avec la kinect, sur le tracking du corps humain.
   </p>
-  <p>La balle avance et il faut lever les sourcils pour la faire sauter, et éviter les obstacles. Eyebro est un runner game qui se joue avec les sourcils.</p>
-  <p>Le tracking du visage est la partie la plus importante, notamment en basse lumières.</p>
+  <p>
+  J'ai réécrit certaines fonctions provenant de SimpleOpenNI, la bibliothèque processing en charge de récupérer et dessiner
+  le squelette humain via la kinect. Ce "starter kit" me permet de travailler facilement avec le squelette, pour des installations interactives
+  ou pour la création de visuels live.
+  </p>
+  <p>
+  (Travail en cours)
+  </p>
+ 
 
 technologies: |
   <ul>

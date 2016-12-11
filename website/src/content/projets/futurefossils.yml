@@ -1,0 +1,42 @@
+# Template compiler infos
+layout: projet.hbs
+
+# Metadatas
+title: Antoine Puel - future fossils
+description: Série d'images de fossiles numériques réalisées en scanning 3D
+
+# Content
+projet: "future fossils"
+date: "2016"
+
+content: |
+  <p>future fossils est une série d’images produites à l’aide de technique de scanner 3D. 
+  À partir d’une réflexion autour de l’obsolescence ultra-rapide des objets technologiques et de leur recyclage imminent, 
+  future fossils pose la question de la mémoire et de la trace des ces objets dont les formes sont vouées à disparaitre.
+  </p>
+  
+  <p>Les images révèlent la présence fantômatique de ces formes inertes, à la fois vidées de leur substance et de leur fonction.</p>
+
+technologies: |
+  <ul>
+  <li>⟡ kinect</li>
+  <li>⟡ skanect</li>
+  </ul>
+
+liens: |
+  <ul>
+  <li><a href="#">→ Voir le projet en ligne</a></li>
+  <li><a href="https://github.com/brocessing/bro-tube">Le Github du projet 📚</a></li>
+  <li>Réalisé avec <a href="http://hugo.works">Hugo Piquemal 💪</a></li>
+  </ul>
+
+preview: <img src="projets/eyebro/jump.gif" alt="eyebro preview">
+
+images: |
+  <img src="projets/eyebro/light.gif" alt="eyebro light">
+  <img src="projets/eyebro/toofast.gif" alt="eyebro toofast">
+
+
+
+
+  

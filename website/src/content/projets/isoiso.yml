@@ -1,0 +1,40 @@
+# Template compiler infos
+layout: projet.hbs
+
+# Metadatas
+title: Antoine Puel - iso☐iso
+description: Installation interactive autour du livre numérique
+
+# Content
+
+projet: "iso☐iso"
+date: "2016"
+
+content: |
+  <p>iso_iso est une installation interactive présentée au labo de l’édition 10/18 à Paris, durant le workshop avec Jean-Michel Géridan à la Gaité Lyrique.</p>
+  <p>Composé d’un « livre contrôleur » et d’un écran, iso☐iso est un parcours entre les mots, où le seul but est de choisir celui qui nous inspire le plus. 
+  À la fin de l’expérience, le spectateur collabore à l’installation en ajoutant un mot dans le parcours et reçoit une trace visuelle de son voyage.</p>
+
+technologies: |
+  <ul>
+  <li>⟡ arduino</li>
+  <li>⟡ processing</li>
+  </ul>
+
+liens: |
+  <ul>
+  <li>Réalisé avec <a href="http://hugo.works">Hugo Piquemal</a>, <a href="http://arnaudjuracek.fr">Arnaud Juracek</a>,
+  <a href="https://leoternoir.com">Léo Ternoir</a>, et <a href"www.thibaultterray.com">Thibault Terray</a> 💪
+  </li>
+  </ul>
+
+preview: <iframe src="https://player.vimeo.com/video/60974948" width="1920" height="1080" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+images: |
+  <img src="projets/eyebro/light.gif" alt="eyebro light">
+  <img src="projets/eyebro/toofast.gif" alt="eyebro toofast">
+
+
+
+
+  
