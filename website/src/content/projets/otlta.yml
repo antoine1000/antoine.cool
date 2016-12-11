@@ -1,0 +1,47 @@
+# Template compiler infos
+layout: projet.hbs
+
+# Metadatas
+title: Antoine Puel - one thing leading to another
+description: Vidéo générative de suggestions Youtube en suggestions Youtube
+
+# Content
+
+projet: "one thing leading to another"
+date: "2016"
+
+content: |
+  <p>One thing leading to another est un flux vidéo provenant de Youtube, déterminé par les suggestions soumises par le moteur de recherche de l’hébergeur vidéo. 
+  Chaque vidéo en renvoie vers une autre, choisie selon la liste des propositions que le célèbre site de Google sélectionne. 
+  Le projet est une exploration où l’image se transforme au fil du parcours et au gré des requêtes utilisateurs.</p>
+  
+  <p>Cette vidéo interactive, générée à la fois par du contenu en ligne et par les spectateurs qui déterminent la direction qu’elle prend, 
+  questionne l’algorithme de Youtube, qui tente discrètement de nous enfermer dans notre propre bulle, 
+  en nous renvoyant toujours vers des vidéos susceptibles de nous plaire : un cocon aseptisé préparé par Google.
+  </p>
+
+
+technologies: |
+  <ul>
+  <li>⟡ webpack + nodeJS</li>
+  <li>⟡ youtube API</li>
+  <li>⟡ javascript</li> 
+  </ul>
+
+liens: |
+  <ul>
+  <li><a href="#">→ Voir le projet en ligne</a></li>
+  <li><a href="https://github.com/brocessing/bro-tube">Le Github du projet 📚</a></li>
+  <li>Réalisé avec <a href="http://hugo.works">Hugo Piquemal 💪</a></li>
+  </ul>
+
+preview: <img src="projets/eyebro/jump.gif" alt="eyebro preview">
+
+images: |
+  <img src="projets/eyebro/light.gif" alt="eyebro light">
+  <img src="projets/eyebro/toofast.gif" alt="eyebro toofast">
+
+
+
+
+  

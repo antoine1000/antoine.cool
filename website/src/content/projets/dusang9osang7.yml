@@ -1,0 +1,39 @@
+# Template compiler infos
+layout: projet.hbs
+
+# Metadatas
+title: Antoine Puel - dusangneuf-osangsett
+description: Site web de la résidence d'artiste Dusangneuf-Osangsett(BE)
+
+# Content
+
+projet: "dusangneuf-osangsett"
+date: "2016"
+
+content: |
+  <p>Durant 6 semaines, j’ai travaillé chez Variable, un studio de design graphique et de développement web basé à Bruxelles. 
+  J’ai notamment réalisé un site web pour la résidence d’artiste initiée par le magazine The Word : Dusangneuf Osangsett.
+  </p>
+  <p>J’ai appris à mettre en place un environnement de travail efficace, à penser la structure d’un site et à en concevoir l’architecture. 
+  Ce fut aussi l’occasion de développer mes compétences de code, notamment sur les langages html/css/javascript.</p>
+  <p>Ce stage a été une experience enrichissante de développement web, et m’a donné de bonnes perspectives sur mon avenir professionnel.
+  Merci à Antoine & Constant !</p>
+
+
+technologies: |
+  <ul>
+  <li>⟡ html + css + javascript</li>
+  <li>⟡ sketch</li>
+  </ul>
+
+liens: |
+  <ul>
+  <li><a href="http://dusangneuf-osangsett.com">→ Voir le projet en ligne</a></li>
+  <li>Réalisé avec <a href="http://variable.club">Variable ⚐</a></li>
+  </ul>
+
+preview: <img src="projets/eyebro/jump.gif" alt="eyebro preview">
+
+images: |
+  <img src="projets/eyebro/light.gif" alt="eyebro light">
+  <img src="projets/eyebro/toofast.gif" alt="eyebro toofast">

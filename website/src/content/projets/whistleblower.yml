@@ -1,0 +1,36 @@
+# Template compiler infos
+layout: projet.hbs
+
+# Metadatas
+title: Antoine Puel - whistleblower
+description: Installation interactive d'un iPhone siffleur
+
+# Content
+
+projet: "whistleblower"
+date: "2015"
+
+content: |
+  <p>whistleblower (« lanceur d’alerte ») est une installation interactive mettant en scène un iPhone si ant les personnes qui passent devant lui. 
+  Quand un spectateur s’approche, l’iPhone fait semblant de s’éteindre, puis continue de siffler le spectateur dès que celui ci est parti.</p>
+
+  <p>Ce projet est à la fois un petit jeu interactif destiné à interagir dans un lieu de passage ou d’exposition, 
+  et une réflexion autour de notre dépendance aux smartphones et au « harcèlement » sonore qu’ils opèrent à longueur de journée.</p>
+
+technologies: |
+  <ul>
+  <li>⟡ kinect</li>
+  <li>⟡ processing + nodeJS</li>
+  <li>⟡ spacebrew</li>
+  </ul>
+
+liens: |
+  <ul>
+  <li><a href="http://dusangneuf-osangsett.com">→ Voir la vidéo du projet</a></li>
+  </ul>
+
+preview: <img src="projets/eyebro/jump.gif" alt="eyebro preview">
+
+images: |
+  <img src="projets/eyebro/light.gif" alt="eyebro light">
+  <img src="projets/eyebro/toofast.gif" alt="eyebro toofast">

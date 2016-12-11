@@ -3,7 +3,7 @@ layout: projet.hbs
 
 # Metadatas
 title: Antoine Puel - eyebro
-description: Portfolio d'Antoine Puel - Bruxelles
+description: Fait sauter la balle avec tes sourcils !
 
 # Content
 
@@ -27,8 +27,8 @@ technologies: |
 liens: |
   <ul>
   <li><a href="https://brocessing.github.io/eyebro/">Jouer à eyebro ✓</a></li>
-  <li>Réalisé avec <a href="http://arnaudjuracek.fr">Arnaud Juracek 💪</a></li>
   <li><a href="https://github.com/brocessing/eyebro">Le Github du projet 📚</a></li>
+  <li>Réalisé avec <a href="http://arnaudjuracek.fr">Arnaud Juracek 💪</a></li>
   </ul>
 
 preview: <img src="projets/eyebro/jump.gif" alt="eyebro preview">
@@ -36,8 +36,3 @@ preview: <img src="projets/eyebro/jump.gif" alt="eyebro preview">
 images: |
   <img src="projets/eyebro/light.gif" alt="eyebro light">
   <img src="projets/eyebro/toofast.gif" alt="eyebro toofast">
-
-
-
-
-  
