@@ -36,8 +36,8 @@ const broStartConfig = {
       // you can mutate data if you need to add/remove content before rendering
       if (data.layout === 'index.hbs') data.project = projectList.projects
       if (data.layout === 'projet.hbs') {
-        data.nextProject = projectList.previousProjectFrom(data.projet)
-        data.previousProject = projectList.nextProjectFrom(data.projet)
+        data.nextProject = projectList.nextProjectFrom(data.projet)
+        data.previousProject = projectList.previousProjectFrom(data.projet)
       }
     }
   }
