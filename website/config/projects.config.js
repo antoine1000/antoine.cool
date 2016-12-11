@@ -3,7 +3,7 @@ module.exports = [
   `skeleton+kinect`,
   `one thing leading to another`,
   `dusangneuf-osangsett`,
-  `laurent de la house`,
+  `future fossils`,
   `whistleblower`,
   `j'ai du bon data`,
   `switch`,
