@@ -1,7 +1,7 @@
 {
-  "name": "bro-start",
-  "version": "1.5.1",
-  "description": "Blazing fast webpack setup for static websites",
+  "name": "antoine.cool",
+  "version": "2.0.1",
+  "description": "New website, new projects, new design. Still cool.",
   "private": true,
   "scripts": {
     "start": "cross-env NODE_ENV=development node scripts/serve.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brocessing/bro-start"
+    "url": "git+https://github.com/antoine1000/antoine.cool"
   },
   "author": "Brocessing",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/brocessing/bro-start/issues"
+    "url": "https://github.com/antoine1000/antoine.cool/issues"
   },
-  "homepage": "https://github.com/brocessing/bro-start#readme",
+  "homepage": "https://github.com/antoine1000/antoine.cool#readme",
   "devDependencies": {
     "autoprefixer": "^6.5.1",
     "babel-core": "^6.17.0",
