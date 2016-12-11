@@ -10,7 +10,8 @@
       	<div class="title sticky">
 	      	<h2>{{date}} - <span>{{projet}}</span></h2>
 	    	<div class="nav">
-	      	<a href='#' id="previous"><&nbsp;&nbsp;</a><a href='#' id="next">&nbsp;&nbsp;></a>
+	      	{{#if previousProject}}<a href='{{previousProject.route}}' id="previous"><&nbsp;&nbsp;</a>{{/if}}
+          {{#if nextProject}}<a href='{{nextProject.route}}' id="next">&nbsp;&nbsp;></a>{{/if}}
 	    	</div>
       	</div>
         <div class="preview">

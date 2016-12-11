@@ -1,5 +1,7 @@
 # Template compiler infos
-layout: projet.hbs
+routes:
+  projets/eyebro.html: projet.hbs
+  projets/eyebro.json: projet.hbs
 
 # Metadatas
 title: Antoine Puel - eyebro
@@ -21,7 +23,7 @@ technologies: |
   <ul>
   <li>⟡ javascript</li>
   <li>⟡ <a href="https://github.com/auduno/clmtrackr">clmtrckr.js</a></li>
-  <li>⟡ webcam</li> 
+  <li>⟡ webcam</li>
   </ul>
 
 liens: |

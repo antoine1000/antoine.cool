@@ -8,7 +8,5 @@ description: Portfolio d'Antoine Puel - Bruxelles
 # Content
 message: Bienvenue sur mon portfolio en ligne.
 
-
-
-
-  
+# This is populated by bro-start for navigation generation
+project: []
