@@ -25,13 +25,13 @@ technologies: |
 
 liens: |
   <ul>
-  <li><a href="#">→ Voir le projet en ligne</a></li>
-  <li><a href="https://github.com/brocessing/bro-tube">Le Github du projet 📚</a></li>
-  <li>Réalisé avec <a href="http://hugo.works">Hugo Piquemal 💪</a></li>
+  <li>✖</li>
   </ul>
 
-preview: <img src="projets/eyebro/jump.gif" alt="eyebro preview">
+preview: <img src="projets/future-fossils/ff-gif-preview.gif" alt="future fossils preview">
 
 images: |
-  <img src="projets/eyebro/light.gif" alt="eyebro light">
-  <img src="projets/eyebro/toofast.gif" alt="eyebro toofast">
+  <img src="projets/future-fossils/ff-1.png" alt="future fossils 1">
+  <img src="projets/future-fossils/ff-2.png" alt="future fossils 2">
+  <img src="projets/future-fossils/ff-3.png" alt="future fossils 3">
+  <img src="projets/future-fossils/ff-5.png" alt="future fossils 5">

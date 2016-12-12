@@ -11,7 +11,11 @@ projet: "laurent de la house"
 date: "since 2014"
 
 content: |
-  <p>Je mix de la house à mes heures perdues.</p>
+  <p>Depuis 2014, j'écoute de plus en plus de musiques éléctroniques et j'ai commencé à mixer pour m'amuser, mais aussi parce que c'est un exercice
+  intéressant d'assemblages et de composition.</p>
+
+  <p>En réalité, c'est surtout pour le pseudonyme de Laurent&nbsp;De&nbsp;La&nbsp;House ! ♪♫♪</p>
+
 
 technologies: |
   <ul>
@@ -21,12 +25,16 @@ technologies: |
 
 liens: |
   <ul>
-  <li><a href="http://dusangneuf-osangsett.com">→ Mixcloud</a></li>
-  <li><a href="http://dusangneuf-osangsett.com">→ Soundcloud</a></li>
+  <li><a href="https://www.mixcloud.com/Laurent_De_La_House/" target="_blank">→ Mixcloud</a></li>
+  <li><a href="https://soundcloud.com/laurentdelahouse" target="_blank">→ Soundcloud</a></li>
   </ul>
 
-preview: <img src="projets/eyebro/jump.gif" alt="eyebro preview">
+preview: <img src="projets/laurentdelahouse/mine03.jpg" alt="laurent de la house preview">
 
 images: |
-  <img src="projets/eyebro/light.gif" alt="eyebro light">
-  <img src="projets/eyebro/toofast.gif" alt="eyebro toofast">
+  <p>DJ SET @ La Mine</p>
+  <iframe width="100%" height="400" src="https://www.mixcloud.com/widget/iframe/?feed=https%3A%2F%2Fwww.mixcloud.com%2FLaurent_De_La_House%2Fdj-set-%25C3%25A0-la-mine%2F" frameborder="0" style="margin-bottom: 10vh"></iframe>
+  <p>La Mousson</p>
+  <iframe width="100%" height="400" src="https://www.mixcloud.com/widget/iframe/?feed=https%3A%2F%2Fwww.mixcloud.com%2FLaurent_De_La_House%2Fla-mousson%2F" frameborder="0" style="margin-bottom: 10vh"></iframe>
+  <p>Fin juin</p>
+  <iframe width="100%" height="400" src="https://www.mixcloud.com/widget/iframe/?feed=https%3A%2F%2Fwww.mixcloud.com%2FLaurent_De_La_House%2Fbruxi-mix-01%2F" frameborder="0" style="margin-bottom: 10vh"></iframe>

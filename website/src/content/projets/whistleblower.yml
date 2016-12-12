@@ -11,8 +11,8 @@ projet: "whistleblower"
 date: "2015"
 
 content: |
-  <p>whistleblower (« lanceur d’alerte ») est une installation interactive mettant en scène un iPhone si ant les personnes qui passent devant lui. 
-  Quand un spectateur s’approche, l’iPhone fait semblant de s’éteindre, puis continue de siffler le spectateur dès que celui ci est parti.</p>
+  <p>whistleblower (« lanceur d’alerte ») est une installation interactive mettant en scène un iPhone sifflant les personnes qui passent devant lui. 
+  Quand un spectateur s’approche, l’iPhone fait semblant de s’éteindre, puis continue de siffler le spectateur dès que celui-ci est parti.</p>
 
   <p>Ce projet est à la fois un petit jeu interactif destiné à interagir dans un lieu de passage ou d’exposition, 
   et une réflexion autour de notre dépendance aux smartphones et au « harcèlement » sonore qu’ils opèrent à longueur de journée.</p>
@@ -26,11 +26,14 @@ technologies: |
 
 liens: |
   <ul>
-  <li><a href="http://dusangneuf-osangsett.com">→ Voir la vidéo du projet</a></li>
+  <li><a href="https://vimeo.com/149168111" target="_blank>→ Voir la vidéo du projet</a></li>
+  <li>Merci à <a href="http://www.imal.org/fr" target="_blank">Yves Bernard</a> pour son aide précieuse</li>
   </ul>
 
-preview: <img src="projets/eyebro/jump.gif" alt="eyebro preview">
+preview: <iframe src="https://player.vimeo.com/video/149168111" width="1920" height="1080" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
 
 images: |
-  <img src="projets/eyebro/light.gif" alt="eyebro light">
-  <img src="projets/eyebro/toofast.gif" alt="eyebro toofast">
+  <img src="projets/whistleblower/whistle1.jpg" alt="whisteblower 1">
+  <img src="projets/whistleblower/whistle2.jpg" alt="whisteblower 2">
+  <img src="projets/whistleblower/whistle3.jpg" alt="whisteblower 3">
+  <img src="projets/whistleblower/whistle4.jpg" alt="whisteblower 4">

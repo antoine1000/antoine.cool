@@ -20,7 +20,7 @@ content: |
   ou pour la création de visuels live.
   </p>
   <p>
-  (Travail en cours)
+  Travail en cours... ✎____
   </p>
  
 
@@ -36,8 +36,8 @@ liens: |
   <li><a href="https://github.com/antoine1000/kinect-skeleton">Le Github du projet 📚</a></li>
   </ul>
 
-preview: <img src="projets/eyebro/jump.gif" alt="eyebro preview">
+preview: <img src="projets/skeleton+kinect/skeleton-1.gif" alt="skeleton preview">
 
 images: |
-  <img src="projets/eyebro/light.gif" alt="eyebro light">
-  <img src="projets/eyebro/toofast.gif" alt="eyebro toofast">
+#<img src="projets/skeleton+kinect/skeleton-1.gif" alt="skeleton preview">
+#<img src="projets/eyebro/toofast.gif" alt="eyebro toofast">
