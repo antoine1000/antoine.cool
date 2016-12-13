@@ -11,11 +11,11 @@ projet: "eyebro"
 date: "2016"
 
 content: |
-  <p>Eyebro est un runner game qui se joue avec les sourcils. La balle avance et il faut lever les sourcils pour la faire sauter, et éviter les obstacles.
-  Le tracking du visage est la partie la plus importante, notamment en basse lumières.
+  <p>Eyebro est un runner game qui se joue avec le visage. Grâce à un système de tracking via la webcam,
+  les sourcils font office de contrôleur et permettent de faire sauter la balle. Le terrain est généré différemment 
+  à chaque nouvelle partie.
   </p>
-  <p>La balle avance et il faut lever les sourcils pour la faire sauter, et éviter les obstacles. Eyebro est un runner game qui se joue avec les sourcils.</p>
-  <p>Le tracking du visage est la partie la plus importante, notamment en basse lumières.</p>
+  <p><a href="https://brocessing.github.io/eyebro/">→ Jouer à eyebro</a></p>
 
 technologies: |
   <ul>
@@ -26,7 +26,7 @@ technologies: |
 
 liens: |
   <ul>
-  <li><a href="https://brocessing.github.io/eyebro/">Jouer à eyebro ✓</a></li>
+  <li><a href="https://brocessing.github.io/eyebro/">→ Jouer à eyebro</a></li>
   <li><a href="https://github.com/brocessing/eyebro">Le Github du projet 📚</a></li>
   <li>Réalisé avec <a href="http://arnaudjuracek.fr">Arnaud Juracek 💪</a></li>
   </ul>

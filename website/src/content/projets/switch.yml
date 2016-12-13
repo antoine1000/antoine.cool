@@ -12,9 +12,14 @@ date: "2015"
 
 content: |
   <p>Qui a déjà lu les conditions d'utilisations d'un logiciel ou d'une application avant de l'installer ? Personne, ou presque...
-  Pourtant, elles sont très importantes en ce qui concernent notre vie privée et les informations qu'une entreprise peut récolter sur nous.</p>
-  <p>Pour la campagne de Switch, notre smartphone protecteur de la vie privée, 
-  nous avons piégé des passants grâce à des cookies avec des conditions d'utilisations "un peu spéciales".
+  Pourtant, elles sont très importantes en ce qui concernent notre vie privée et les informations qu'une entreprise peut récolter sur nous : 
+  positions géographiques, liste de contacts, photos et vidéos, messages, emails...</p>
+  <p>Pour répondre au problème de la commercialisation des données personnelles, nous avons créé Switch : un smartphone protecteur de la vie privée.
+  D'un simple geste, Switch permet de savoir quelles applications accèdent à vos informations, et permet de désactiver facilement ces permissions.
+  Il est aussi équipé de Firefox OS, un système d'exploitation libre et open-source, qui assure une transparence au sein des applications de base.
+  </p>
+  <p>Notre campagne s'est basée autour de l'insight "J'accepte" : nous acceptons les contrats d'utilisations des applications sans les lire, alors
+  que les mêmes conditions dans "la vraie vie" nous seraient intolérables.
   </p>
 
 
@@ -32,4 +37,38 @@ liens: |
 
 preview: <iframe src="https://player.vimeo.com/video/195177739" width="1920" height="1080" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-carousel: |
+# Be careful : only use space and not TAB for indent!!!
+images: |
+  <img src="projets/switch/switch-01.jpeg" alt="switch-01">
+  <img src="projets/switch/switch-02.jpeg" alt="switch-01">
+  <img src="projets/switch/switch-03.jpeg" alt="switch-01">
+  <img src="projets/switch/switch-04.jpeg" alt="switch-01">
+  <img src="projets/switch/switch-05.jpeg" alt="switch-01">
+  <img src="projets/switch/switch-06.jpeg" alt="switch-01">
+  <img src="projets/switch/switch-07.jpeg" alt="switch-01">
+  <img src="projets/switch/switch-08.jpeg" alt="switch-01">
+  <img src="projets/switch/switch-09.jpeg" alt="switch-01">
+  <img src="projets/switch/switch-10.jpeg" alt="switch-01">
+  <img src="projets/switch/switch-11.jpeg" alt="switch-01">
+  <img src="projets/switch/switch-14.jpeg" alt="switch-01">
+  <img src="projets/switch/switch-15.jpeg" alt="switch-01">
+  <img src="projets/switch/switch-16.jpeg" alt="switch-01">
+  <img src="projets/switch/switch-17.jpeg" alt="switch-01">
+  <img src="projets/switch/switch-18.jpeg" alt="switch-01">
+  <img src="projets/switch/switch-19.jpeg" alt="switch-01">
+  <img src="projets/switch/switch-20.jpeg" alt="switch-01">
+  <img src="projets/switch/switch-21.jpeg" alt="switch-01">
+  <img src="projets/switch/switch-22.jpeg" alt="switch-01">
+  <img src="projets/switch/switch-23.jpeg" alt="switch-01">
+  <img src="projets/switch/switch-24-2.png" alt="affiches">
+  <img src="projets/switch/switch-24.jpeg" alt="switch-01">
+  <iframe src="https://player.vimeo.com/video/195178467" width="1920" height="1080" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  <img src="projets/switch/switch-25.jpeg" alt="switch-01">
+  <img src="projets/switch/switch-26.png" alt="switch-01">
+  <img src="projets/switch/switch-27.png" alt="switch-01">
+  <img src="projets/switch/switch-28.png" alt="switch-01">
+  <img src="projets/switch/switch-29.png" alt="switch-01">
+
+
+
+  

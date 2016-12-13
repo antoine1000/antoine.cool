@@ -19,7 +19,8 @@ content: |
   questionne l’algorithme de Youtube, qui tente discrètement de nous enfermer dans notre propre bulle, 
   en nous renvoyant toujours vers des vidéos susceptibles de nous plaire : un cocon aseptisé préparé par Google.
   </p>
-
+  
+  <p><a href="#" style="font-family: HK-Grotesk-Bold">→ Voir le projet en ligne</a></p>
 
 technologies: |
   <ul>
@@ -35,8 +36,6 @@ liens: |
   <li>Réalisé avec <a href="http://hugo.works">Hugo Piquemal 💪</a></li>
   </ul>
 
-preview: <img src="projets/eyebro/jump.gif" alt="eyebro preview">
+preview: <a href="https://brocessing.github.io/eyebro/" target="_blank"><img src="projets/otlta/otlta-preview.gif" alt="otlta preview" style="border:1px solid black; max-width:50vw"></a>
 
 images: |
-  <img src="projets/eyebro/light.gif" alt="eyebro light">
-  <img src="projets/eyebro/toofast.gif" alt="eyebro toofast">

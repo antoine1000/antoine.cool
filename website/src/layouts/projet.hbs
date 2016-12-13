@@ -8,7 +8,7 @@
       {{> header.hbs}}
       <section class="main-project">
       	<div class="title sticky">
-	      	<h2>{{date}} - <span>{{projet}}</span></h2>
+	      	<p>{{date}} - <span>{{projet}}</span></p>
 	    	<div class="nav">
 	      	{{#if previousProject}}<a href='{{previousProject.route}}' id="previous"><&nbsp;&nbsp;</a>{{/if}}
           {{#if nextProject}}<a href='{{nextProject.route}}' id="next">&nbsp;&nbsp;></a>{{/if}}
