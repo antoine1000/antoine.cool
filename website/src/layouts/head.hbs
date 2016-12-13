@@ -2,6 +2,7 @@
     <title>{{title}}</title>
     <meta name="description" content="{{description}}" />
     {{#if compiler.isProduction}}
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.css">
     <link rel="stylesheet" href="bundle-{{compiler.hash}}.css">
     {{/if}}
 
@@ -13,6 +14,8 @@
     <link rel="manifest" href="favicon/manifest.json?v=m2d2665p9O">
     <link rel="mask-icon" href="favicon/safari-pinned-tab.svg?v=m2d2665p9O" color="#5bbad5">
     <link rel="shortcut icon" href="favicon/favicon.ico">
+
+
 
     <meta http-equiv="cleartype" content="on">
     <meta name="apple-mobile-web-app-title" content="Antoine Puel">
@@ -50,5 +53,3 @@
     <meta name="twitter:title" content="Antoine Puel">
     <meta name="twitter:description" content="Portfolio d'Antoine Puel">
     <meta name="twitter:image" content="http://antoine.cool/assets/images/cover.png">
-
-  

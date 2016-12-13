@@ -45,5 +45,7 @@
     "webpack-hot-middleware": "^2.13.0",
     "webpack-merge": "^0.14.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "flickity": "^2.0.5"
+  }
 }

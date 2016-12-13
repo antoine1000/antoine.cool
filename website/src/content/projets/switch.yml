@@ -27,11 +27,9 @@ technologies: |
 
 liens: |
   <ul>
-  <li>Réalisé avec Steren Courric, Arthur Gori et Tancrède Garreau</li>
+  <li>Réalisé avec Steren Courric, Arthur Gori et <a href="https://www.behance.net/tancredegarreau">Tancrède Garreau</a></li>
   </ul>
 
 preview: <iframe src="https://player.vimeo.com/video/195177739" width="1920" height="1080" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-images: |
-  <img src="projets/eyebro/light.gif" alt="eyebro light">
-  <img src="projets/eyebro/toofast.gif" alt="eyebro toofast">
+carousel: |

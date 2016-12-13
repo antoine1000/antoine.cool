@@ -12,7 +12,7 @@ date: "since 2014"
 
 content: |
   <p>Depuis 2014, j'écoute de plus en plus de musiques éléctroniques et j'ai commencé à mixer pour m'amuser, mais aussi parce que c'est un exercice
-  intéressant d'assemblages et de composition.</p>
+  intéressant d'assemblage et de composition.</p>
 
   <p>En réalité, c'est surtout pour le pseudonyme de Laurent&nbsp;De&nbsp;La&nbsp;House ! ♪♫♪</p>
 
@@ -38,3 +38,7 @@ images: |
   <iframe width="100%" height="400" src="https://www.mixcloud.com/widget/iframe/?feed=https%3A%2F%2Fwww.mixcloud.com%2FLaurent_De_La_House%2Fla-mousson%2F" frameborder="0" style="margin-bottom: 10vh"></iframe>
   <p>Fin juin</p>
   <iframe width="100%" height="400" src="https://www.mixcloud.com/widget/iframe/?feed=https%3A%2F%2Fwww.mixcloud.com%2FLaurent_De_La_House%2Fbruxi-mix-01%2F" frameborder="0" style="margin-bottom: 10vh"></iframe>
+  <p>Deep Mix</p>
+  <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/219378845&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true" style="margin-bottom: 10vh"></iframe>
+  <p>Minimix #02</p>
+  <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/201698290&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>

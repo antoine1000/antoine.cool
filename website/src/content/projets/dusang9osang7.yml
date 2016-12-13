@@ -11,13 +11,13 @@ projet: "dusangneuf-osangsett"
 date: "2016"
 
 content: |
-  <p>Durant 6 semaines, j’ai travaillé chez Variable, un studio de design graphique et de développement web basé à Bruxelles. 
-  J’ai notamment réalisé un site web pour la résidence d’artiste initiée par le magazine The Word : Dusangneuf Osangsett.
+  <p>Durant 6 semaines, j'ai travaillé chez <a href="http://variable.club">Variable</a>, un studio de design graphique et de développement web basé à Bruxelles.
+  J'ai notamment réalisé un site web pour la résidence d'artiste initié par le magazine The Word : Dusangneuf Osangsett.
   </p>
-  <p>J’ai appris à mettre en place un environnement de travail efficace, à penser la structure d’un site et à en concevoir l’architecture. 
-  Ce fut aussi l’occasion de développer mes compétences de code, notamment sur les langages html/css/javascript.</p>
-  <p>Ce stage a été une experience enrichissante de développement web, et m’a donné de bonnes perspectives sur mon avenir professionnel.
-  Merci à Antoine & Constant !</p>
+  <p>J'ai appris à mettre en place un environnement de travail efficace, à penser la structure d'un site et à en concevoir l'architecture.
+  Ce fut aussi l'occasion de développer mes compétences de code, notamment sur les langages html, css et javascript.
+  </p>
+  <p>Merci à Antoine & Constant !</p>
 
 
 technologies: |
