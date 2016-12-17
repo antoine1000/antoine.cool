@@ -1,0 +1,38 @@
+# Template compiler infos
+layout: about.hbs
+
+# Metadatas
+title: Antoine Puel
+description: Portfolio d'Antoine Puel - Bruxelles
+
+preview: <a href="https://brocessing.github.io/eyebro/" target="_blank"><img src="projets/eyebro/jump.gif" alt="eyebro preview"></a> 
+
+# Content
+parcours: |
+ <p>Je suis diplômé de l’école Estienne en design graphique numérique (BTS) et en design et stratégies de communication (DSAA).
+ En ce moment, je termine mon master en arts numériques à l’ERG, à Bruxelles.</p>
+
+demarche: |
+ <p>
+ Je suis très captivé par Internet et ses contenus, nos rapports aux nouvelles technologies et par la construction de dispositifs interactifs. 
+ Je mène une réflexion autour des objets technologiques qui nous entourent, des processus algorithmiques qui modifient peu à peu notre façon de vivre, 
+ des dispositifs de contrôle sur le net et les relations entre l’art et le futur.
+ </p>
+ <p>
+ J’essaye de placer ma pratique dans les champs du design interactif et du web-design, et je tends le plus possible à utiliser des logiciels libres.
+ </p>
+
+skills: |
+ <p>
+ Je code principalement en Java, avec Processing (ou p5.js). J’utilise régulièrement la Kinect pour des installations, 
+ et parfois Python pour d’autres usages (scripts ou machine-learning). Je suis à l’aise avec un Terminal et j’utilise Git pour tous mes projets.
+ </p>
+ <p>
+ Pour le web, j’utilise l’inséparable trio HTML/CSS/Javascript, mais aussi NodeJS quand il s’agit de mettre en place des applications web.
+ </p>
+ <p>
+ Pour le design, j’utilise Sketch. J’ai aussi de l’experience avec la suite Adobe, notamment After Effects.
+ </p>
+
+# This is populated by bro-start for navigation generation
+project: []

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {{> head.hbs}}
+</head>
+<body>
+  <main>
+      {{> header.hbs}}
+    <section class="main-project">
+      <div class="preview">
+          {{{preview}}}
+        </div>
+      <section class="description">
+          <h5>Parcours</h5>
+          {{{parcours}}}
+          <h5>Démarche</h5>
+          {{{demarche}}}
+          <h5>Compétences</h5>
+          {{{skills}}}
+        </section>
+      </section>
+      {{> footer.hbs}}
+  </main>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.js"></script>
+  <script src="stickyfill.min.js"></script>
+  <script src="bundle-{{compiler.hash}}.js"></script>
+</body>
+</html>
