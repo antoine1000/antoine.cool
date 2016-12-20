@@ -12,10 +12,10 @@ date: "2015"
 
 content: |
   <p>whistleblower (« lanceur d’alerte ») est une installation interactive mettant en scène un iPhone sifflant les personnes qui passent devant lui. 
-  Quand un spectateur s’approche, l’iPhone fait semblant de s’éteindre, puis continue de siffler le spectateur dès que celui-ci est parti.</p>
+  Quand un spectateur s'approche, l'iPhone fait semblant de s'éteindre, puis continue de siffler le spectateur dès que celui-ci est parti.</p>
 
-  <p>Ce projet est à la fois un petit jeu interactif destiné à interagir dans un lieu de passage ou d’exposition, 
-  et une réflexion autour de notre dépendance aux smartphones et au « harcèlement » sonore qu’ils opèrent à longueur de journée.</p>
+  <p>Ce projet est à la fois un petit jeu interactif destiné à interagir dans un lieu de passage ou d'exposition, 
+  et une réflexion autour de notre dépendance aux smartphones et "harcèlement" sonore qu'ils opèrent à longueur de journée.</p>
 
 technologies: |
   <ul>

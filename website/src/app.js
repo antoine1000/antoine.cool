@@ -23,5 +23,6 @@ const Flickity = require('flickity');
 
  var bLazy = new Blazy({
         // Options
-        selector: 'img'
+        selector: 'img',
+        offset: 10
     });
