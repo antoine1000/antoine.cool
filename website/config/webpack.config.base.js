@@ -1,6 +1,7 @@
 const path = require('path')
 const paths = require('./paths.config')
 const autoprefixer = require('autoprefixer')
+const rupture = require('rupture')
 
 module.exports = {
   entry: [
@@ -23,6 +24,9 @@ module.exports = {
         exclude: /node_modules/
       }
     ]
+  },
+  stylus: {
+    use: [rupture()],
   },
   postcss: function () {
     return [
