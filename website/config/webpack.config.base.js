@@ -26,6 +26,7 @@ module.exports = {
     ]
   },
   stylus: {
+    'include css': true,
     use: [rupture()],
   },
   postcss: function () {
