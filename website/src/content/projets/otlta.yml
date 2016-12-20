@@ -36,6 +36,6 @@ liens: |
   <li>Réalisé avec <a href="http://hugo.works">Hugo Piquemal 💪</a></li>
   </ul>
 
-preview: <a href="https://brocessing.github.io/eyebro/" target="_blank"><img src="projets/otlta/otlta-preview.gif" alt="otlta preview" style="border:1px solid black; max-width:50vw"></a>
+preview: <a href="https://brocessing.github.io/eyebro/" target="_blank"><img class="b-lazy" src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data-src="projets/otlta/otlta-preview.gif" alt="otlta preview" style="border:1px solid black; max-width:50vw"></a>
 
 images: |

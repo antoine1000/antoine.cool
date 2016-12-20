@@ -7,11 +7,11 @@ green = #6AFFBA
 
 /* --------- Mixins --------- */
 
-xs = 8px
-sm = 12px
-md = 14px
+xs = 12px
+sm = 14px
+md = 16px
 xl = 20px
-xxl = 28px
+lg = 24px
 
 
 /* --------- Fonts --------- */
@@ -163,6 +163,7 @@ a {
   justify-content space-between
   min-width 35vw
   max-width 100vw
+  z-index: 1;
 .title p
     font-size 1.7em
     font-family Terminal-Grotesque-Open, Helvetica, sans-serif
@@ -171,7 +172,6 @@ a {
     color green
 }
 
-    
 
 .nav
   display flex
@@ -202,7 +202,7 @@ a {
 .description h5
   font-family HK-Grotesk-Bold
   color green
-  font-size xxl
+  font-size lg
   margin 5vh 0 0 0
 .description ul
   font-size xl
@@ -230,15 +230,20 @@ a {
 
 /* ----- Media Queries - Responsive Design ----- */
 
+
 @media all and (max-width: 1400px) {
     .projects {
-      font-size 22px
+      font-size xl
     }
   }
   
 @media all and (max-width: 768px) {
-    .projects {
-      font-size 14px
+    .projects{
+      font-size md
+    }
+    
+    .title {
+      font-size xl
     }
 
     #left {
@@ -254,9 +259,9 @@ a {
     }
   }
   
-@media all and (max-width: 520px) {
+@media all and (max-width: 600px) {
     .projects {
-      font-size 8px
+      font-size 10px
       height 80vh
       justify-content flex-start
     }
@@ -265,6 +270,34 @@ a {
     right: 0
     }
   }
+  
+  @media all and (max-width: 400px) {
+    .title {
+      font-size s
+    }
+    
+  header {
+  flex-direction column
+  align-items center
+  }
+    
+  #left {
+    width 100vw
+    justify-content center
+  }
+  
+  #right {
+    width 100vw
+    justify-content space-around
+    padding-top 5vh
+    padding-bottom 5vh
+  }
+  
+  .projects {
+    font-size 7px
+    align-items center
+  }
+}
   
 /* ----- be lazy ----- */
 

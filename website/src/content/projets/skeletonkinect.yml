@@ -36,7 +36,7 @@ liens: |
   <li><a href="https://github.com/antoine1000/kinect-skeleton">Le Github du projet 📚</a></li>
   </ul>
 
-preview: <img src="projets/skeleton+kinect/skeleton-1.gif" alt="skeleton preview">
+preview: <img class="b-lazy" src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data-src="projets/skeleton+kinect/skeleton-1.gif" alt="skeleton preview">
 
 images: |
 #<img src="projets/skeleton+kinect/skeleton-1.gif" alt="skeleton preview">

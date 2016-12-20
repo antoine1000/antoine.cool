@@ -28,11 +28,11 @@ liens: |
   <li>✖</li>
   </ul>
 
-preview: <img src="projets/future-fossils/ff-gif-preview.gif" alt="future fossils preview">
+preview: <img class="b-lazy" src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data-src="projets/future-fossils/ff-gif-preview.gif" alt="future fossils preview">
 
 images: |
-  <img src="projets/future-fossils/ff-1.png" alt="future fossils 1">
-  <img src="projets/future-fossils/ff-2.png" alt="future fossils 2">
-  <img src="projets/future-fossils/ff-3.png" alt="future fossils 3">
-  <img src="projets/future-fossils/ff-4.png" alt="future fossils 4">
-  <img src="projets/future-fossils/ff-5.png" alt="future fossils 5">
+  <img class="b-lazy" src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data-src="projets/future-fossils/ff-1.png" alt="future fossils 1">
+  <img class="b-lazy" src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data-src="projets/future-fossils/ff-2.png" alt="future fossils 2">
+  <img class="b-lazy" src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data-src="projets/future-fossils/ff-3.png" alt="future fossils 3">
+  <img class="b-lazy" src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data-src="projets/future-fossils/ff-4.png" alt="future fossils 4">
+  <img class="b-lazy" src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data-src="projets/future-fossils/ff-5.png" alt="future fossils 5">

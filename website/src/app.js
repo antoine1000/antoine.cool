@@ -10,6 +10,8 @@ for (var i = stickyElements.length - 1; i >= 0; i--) {
 // import flickity module
 const Flickity = require('flickity');
 
+const rupture = require('rupture');
+
 
 // var elem = document.querySelector('.main-carousel');
 // var flkty = new Flickity( elem, {

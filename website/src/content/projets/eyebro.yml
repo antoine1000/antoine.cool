@@ -31,7 +31,9 @@ liens: |
   <li>Réalisé avec <a href="http://arnaudjuracek.fr">Arnaud Juracek 💪</a></li>
   </ul>
 
-preview: <a href="https://brocessing.github.io/eyebro/" target="_blank"><img src="projets/eyebro/jump.gif" alt="eyebro preview"></a>
+preview: <a href="https://brocessing.github.io/eyebro/" target="_blank"><img class="b-lazy"
+ src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data-src="projets/eyebro/jump.gif" alt="eyebro preview" 
+ style="max-width:100%; max-height:50vh"></a>
 
 images: |
 # <img src="projets/eyebro/light.gif" alt="eyebro light">

@@ -34,7 +34,7 @@ liens: |
   <li>Réalisé avec Steren Courric, Arthur Gori et <a href="https://www.behance.net/tancredegarreau">Tancrède Garreau</a></li>
   </ul>
 
-preview: <img src="projets/dubondata/couv1.jpg" alt="Couverture Mémoire">
+preview: <img class="b-lazy" src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data-src="projets/dubondata/couv1.jpg" alt="Couverture Mémoire">
 
 images: |
   <img class="b-lazy" src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data-src="projets/dubondata/couv.gif" alt="Couverture holographique">

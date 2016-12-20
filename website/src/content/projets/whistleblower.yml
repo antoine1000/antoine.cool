@@ -11,7 +11,7 @@ projet: "whistleblower"
 date: "2015"
 
 content: |
-  <p>whistleblower (« lanceur d’alerte ») est une installation interactive mettant en scène un iPhone sifflant les personnes qui passent devant lui. 
+  <p>whistleblower est une installation interactive mettant en scène un iPhone sifflant les personnes qui passent devant lui. 
   Quand un spectateur s'approche, l'iPhone fait semblant de s'éteindre, puis continue de siffler le spectateur dès que celui-ci est parti.</p>
 
   <p>Ce projet est à la fois un petit jeu interactif destiné à interagir dans un lieu de passage ou d'exposition, 
@@ -33,7 +33,7 @@ liens: |
 preview: <iframe src="https://player.vimeo.com/video/149168111" width="1920" height="1080" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
 
 images: |
-  <img src="projets/whistleblower/whistle1.jpg" alt="whisteblower 1">
-  <img src="projets/whistleblower/whistle2.jpg" alt="whisteblower 2">
-  <img src="projets/whistleblower/whistle3.jpg" alt="whisteblower 3">
-  <img src="projets/whistleblower/whistle4.jpg" alt="whisteblower 4">
+  <img class="b-lazy" src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data-src="projets/whistleblower/whistle1.jpg" alt="whisteblower 1">
+  <img class="b-lazy" src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data-src="projets/whistleblower/whistle2.jpg" alt="whisteblower 2">
+  <img class="b-lazy" src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data-src="projets/whistleblower/whistle3.jpg" alt="whisteblower 3">
+  <img class="b-lazy" src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data-src="projets/whistleblower/whistle4.jpg" alt="whisteblower 4">
