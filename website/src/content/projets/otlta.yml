@@ -11,16 +11,16 @@ projet: "one thing leading to another"
 date: "2016"
 
 content: |
-  <p>One thing leading to another est un flux vidéo provenant de Youtube, déterminé par les suggestions soumises par le moteur de recherche de l’hébergeur vidéo. 
-  Chaque vidéo en renvoie vers une autre, choisie selon la liste des propositions que le célèbre site de Google sélectionne. 
-  Le projet est une exploration où l’image se transforme au fil du parcours et au gré des requêtes utilisateurs.</p>
+  <p>One thing leading to another est un flux vidéo provenant de Youtube, déterminé par les suggestions soumises par le moteur de recherche de l'hébergeur vidéo. 
+  Chaque vidéo en renvoie vers une autre, choisie selon la liste des propositions que le célèbre site de Google sélectionne. 
+  Le projet est une exploration où l'image se transforme au fil du parcours et au gré des requêtes utilisateurs.</p>
   
-  <p>Cette vidéo interactive, générée à la fois par du contenu en ligne et par les spectateurs qui déterminent la direction qu’elle prend, 
-  questionne l’algorithme de Youtube, qui tente discrètement de nous enfermer dans notre propre bulle, 
-  en nous renvoyant toujours vers des vidéos susceptibles de nous plaire : un cocon aseptisé préparé par Google.
+  <p>Cette vidéo interactive, générée à la fois par du contenu en ligne et par les spectateurs qui déterminent la direction qu’elle prend, 
+  questionne l’algorithme de Youtube, qui tente discrètement de nous enfermer dans notre propre bulle, 
+  en nous renvoyant toujours vers des vidéos susceptibles de nous plaire : un cocon aseptisé préparé par Google.
   </p>
   
-  <p><a href="#" style="font-family: HK-Grotesk-Bold">→ Voir le projet en ligne</a></p>
+  <p><a href="http://otlta.antoine.cool" target="_blank" style="font-family: HK-Grotesk-Bold">→ Voir le projet en ligne</a></p>
 
 technologies: |
   <ul>

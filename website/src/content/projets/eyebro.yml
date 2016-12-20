@@ -15,7 +15,7 @@ content: |
   les sourcils font office de contrôleur et permettent de faire sauter la balle. Le terrain est généré différemment 
   à chaque nouvelle partie.
   </p>
-  <p><a href="https://brocessing.github.io/eyebro/" style="font-family: HK-Grotesk-Bold">→ Jouer à eyebro</a></p>
+  <p><a href="https://brocessing.github.io/eyebro/" target="_blank" style="font-family: HK-Grotesk-Bold">→ Jouer à eyebro</a></p>
 
 technologies: |
   <ul>
@@ -26,7 +26,7 @@ technologies: |
 
 liens: |
   <ul>
-  <li><a href="https://brocessing.github.io/eyebro/">→ Jouer à eyebro</a></li>
+  <li><a href="https://brocessing.github.io/eyebro/" target="_blank">→ Jouer à eyebro</a></li>
   <li><a href="https://github.com/brocessing/eyebro">Le Github du projet 📚</a></li>
   <li>Réalisé avec <a href="http://arnaudjuracek.fr">Arnaud Juracek 💪</a></li>
   </ul>

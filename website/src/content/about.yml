@@ -5,7 +5,7 @@ layout: about.hbs
 title: Antoine Puel
 description: Portfolio d'Antoine Puel - Bruxelles
 
-preview: <a href="https://brocessing.github.io/eyebro/" target="_blank"><img src="projets/eyebro/jump.gif" alt="eyebro preview"></a> 
+preview: <img src="images/me-2.png" alt="myself preview"></img> 
 
 # Content
 parcours: |
@@ -34,5 +34,13 @@ skills: |
  Pour le design, j’utilise Sketch. J’ai aussi de l’experience avec la suite Adobe, notamment After Effects.
  </p>
 
-# This is populated by bro-start for navigation generation
+contact: |
+ <a href="mailto:bonjour@antoine.cool?Subject=Bonjour%20Antoine" target="_top">bonjour@antoine.cool</a>
+ <a href="https://twitter.com/antoinedotcool" target="_blank">Twitter</a>
+ <a href="https://github.com/antoine1000" target="_blank">Github</a>
+ <a href="https://soundcloud.com/laurentdelahouse" target="_blank">Soundcloud</a>
+ <a href="https://www.mixcloud.com/Laurent_De_La_House" target="_blank">Mixcloud</a>
+
+
+#This is populated by bro-start for navigation generation
 project: []
