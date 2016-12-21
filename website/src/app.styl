@@ -113,7 +113,7 @@ footer a
 a, p
   font-family textfont, Helvetica, sans-serif
   color black
-  line-height 1.40
+  //line-height 1.40
   
 p
   font-size xl
@@ -243,16 +243,15 @@ a {
     display: block
     text-align: center
     width: initial
-    margin 0
+    margin 2vh 0 2vh 0
   #left, #right
-    width 100vw
+    width 100%
     align-self center
-    margin-top 2vh
-    margin-bottom 2vh
   #left
     justify-content center
   #right
     justify-content space-around
+    margin-top 2vh
   
   .title
     margin-top 2vh
@@ -265,7 +264,7 @@ a {
     
   .preview
     align-self center
-    max-width 50vw
+    max-width 70vw
     height auto
   .description
     max-width 70vw
@@ -274,10 +273,13 @@ a {
   .description a
     font-size 1em
     
-   .projects
+  .projects
     justify-content center
     font-size 0.4em
     padding-top 10vh
+    
+  .project-images
+    max-width 80vw
     
     
 +between(400px, 600px)
@@ -292,11 +294,15 @@ a {
   .projects
     justify-content center
     font-size 0.5em
+  .project-images
+    max-width 80vw
     
   
 +between(600px, 1050px)
   .projects
-    font-size 0.7em
+    font-size 0.9em
+  .project-images
+    max-width 70vw
   
  
 // // Tablet/Desktop Version
