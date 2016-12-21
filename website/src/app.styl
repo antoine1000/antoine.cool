@@ -5,13 +5,15 @@
 black = #000
 green = #6AFFBA
 
-/* --------- Mixins --------- */
+/* --------- Variables --------- */
 
 xs = 12px
 sm = 14px
 md = 16px
 xl = 20px
 lg = 24px
+
+
 
 
 /* --------- Fonts --------- */
@@ -41,6 +43,11 @@ lg = 24px
     font-family: Terminal-Grotesque-Open;
     src: url(fonts/Terminal-Grotesque-Open/terminal-grotesque_open.woff)
 }
+
+/* ---------- */
+
+textfont = HK-Grotesk
+titlefont = Terminal-Grotesque
 
 
 /* --------- Main --------- */
@@ -104,7 +111,7 @@ footer a
 
 
 a, p
-  font-family HK-Grotesk, Helvetica, sans-serif
+  font-family textfont, Helvetica, sans-serif
   color black
   line-height 1.40
   
@@ -157,6 +164,7 @@ a {
   //overflow-y scroll
 }
 
+
 .title
   display flex
   align-self flex-end
@@ -178,7 +186,6 @@ a {
   align-items center
   font-size 1.2em
   margin-left 1em
-  //align-self flex-end
 
 
 .preview
@@ -191,7 +198,7 @@ a {
 .preview a
   width 0px
   height 0px
-  //background green
+
   
 .description
   display flex
@@ -213,7 +220,7 @@ a {
   font-family HK-Grotesk
 
   
-  
+
 .project-images
   display flex
   flex-direction column
@@ -224,80 +231,56 @@ a {
   height auto
   max-width 100%
   margin 5vh 0 5vw 0
-  //border 1px dotted green
   
 
 
-/* ----- Media Queries - Responsive Design ----- */
+/* ----- Responsive Design with Rupture ----- */
 
 
-@media all and (max-width: 1400px) {
-    .projects {
-      font-size xl
-    }
-  }
+// Mobile Version
++mobile()
+  header, #left, #right 
+    display: block
+    text-align: center
+    width: initial
+    margin-top: 1vh
   
-@media all and (max-width: 768px) {
-    .projects{
-      font-size md
-    }
+  .description p, .title 
+    font-size 0.5em
+   
+  .description h5 
+    font-size 0.7em
     
-    .title {
-      font-size xl
-    }
-
-    #left {
-      width: 55vw
-    }
+  .preview
+    align-self center
+    max-width 50vw
+    height auto
+  .description
+    max-width 70vw
+  .description ul
+    font-size 0.5em
+  .description a
+    font-size 1em
     
-    #right {
-      width: 45vw
-    }
     
-    ul {
-      text-align right
-    }
-  }
++between(400px, 600px)
+  p
+    font-size 0.6em
+  #right
+    width 50vw
+  .title
+    align-self center
+  .title p, .nav
+    font-size 1em
   
-@media all and (max-width: 600px) {
-    .projects {
-      font-size 10px
-      height 80vh
-      justify-content flex-start
-    }
-  footer {
-    bottom: 0
-    right: 0
-    }
-  }
-  
-  @media all and (max-width: 400px) {
-    .title {
-      font-size s
-    }
     
-  header {
-  flex-direction column
-  align-items center
-  }
-    
-  #left {
-    width 100vw
-    justify-content center
-  }
   
-  #right {
-    width 100vw
-    justify-content space-around
-    padding-top 5vh
-    padding-bottom 5vh
-  }
+ 
+// // Tablet/Desktop Version
+// +tablet()
+//   .title p
+//   font-size 1em
   
-  .projects {
-    font-size 7px
-    align-items center
-  }
-}
   
 /* ----- be lazy ----- */
 
