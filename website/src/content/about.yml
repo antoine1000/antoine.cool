@@ -5,7 +5,7 @@ layout: about.hbs
 title: Antoine Puel
 description: Portfolio d'Antoine Puel - Bruxelles
 
-preview: <img src="images/me-2.png" alt="myself preview"></img> 
+preview: <img class="b-lazy" src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data-src="images/me.jpg" alt="myself preview"></img> 
 
 # Content
 parcours: |
