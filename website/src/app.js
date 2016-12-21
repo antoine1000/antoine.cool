@@ -26,5 +26,5 @@ const rupture = require('rupture');
  var bLazy = new Blazy({
         // Options
         selector: 'img',
-        offset: 10
+        offset: 100
     });
